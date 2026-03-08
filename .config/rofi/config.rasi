@@ -1,0 +1,96 @@
+configuration {
+    scroll-method: 1;
+    scrollbar: true;
+    show-icons: true;
+    display-run: "Run ";
+    display-drun: "Open ";
+    display-emoji: "Emoji ";
+    drun-display-format: "{icon} {name}";
+    modi: "run,drun,emoji";
+}
+
+@import "~/.config/colors/color.rasi"
+
+* {
+    font: "JetBrainsMono Nerd Font 15";
+}
+
+#window {
+    background-color: @background;
+    border: 3px;
+    border-radius: 8px;
+    border-color: @bordercolor;
+    padding: 15px;
+    width: 600px;
+}
+
+#listview {
+    lines: 6;
+    fixed-height: false;
+    border: 0px;
+    spacing: 4px;
+    padding: 4px 0px 0px;
+}
+
+#element {
+    border: 0;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+#element.normal.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+#element.alternate.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+#element.selected.normal {
+    background-color: @selected-background;
+    text-color: @orange;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element-icon {
+    size: 24px;
+    background-color: inherit;
+}
+
+#scrollbar {
+    width: 4px;
+    border: 0;
+    handle-width: 8px;
+    padding: 0;
+    handle-color: @select;
+}
+
+#inputbar {
+    children: [ prompt, textbox-prompt-colon, entry ];
+    spacing: 8px;
+    padding: 12px;
+    border: 3px;
+    border-radius: 8px;
+    border-color: @bordercolor;
+}
+
+#prompt {
+    text-color: @orange;
+}
+
+#textbox-prompt-colon {
+    expand: false;
+    str: ">";
+    margin: 0px 6px 0px 0px;
+    text-color: @orange2;
+}
+
+#entry {
+    text-color: @foreground;
+}

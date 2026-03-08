@@ -1,0 +1,274 @@
+@import "../colors/theme.css";
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans CJK", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+/* ── Control Center ──────────────────────────────────── */
+.control-center {
+    background: rgba(26, 21, 18, 0.92);
+    border: 1px solid @border;
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 0 8px 32px rgba(10, 8, 4, 0.7);
+}
+
+.control-center-list {
+    background: transparent;
+}
+
+.control-center-list-placeholder {
+    color: @fg_dim;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+/* ── Buttons Grid ─────────────────────────────────────── */
+.widget-buttons-grid {
+    padding: 12px 8px 8px;
+    margin: 0 0 4px 0;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: rgba(58, 44, 34, 0.6);
+    border: 1px solid @border2;
+    border-radius: 12px;
+    min-width: 58px;
+    min-height: 42px;
+    padding: 8px;
+    margin: 3px;
+    font-size: 18px;
+    color: @fg_sub;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: rgba(232, 130, 74, 0.2);
+    border-color: @border;
+    color: @orange;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+    background: rgba(232, 130, 74, 0.3);
+    border-color: @orange;
+    color: @orange;
+    box-shadow: 0 0 8px rgba(232, 130, 74, 0.3);
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked:hover {
+    background: rgba(232, 130, 74, 0.4);
+}
+
+/* ── MPRIS ────────────────────────────────────────────── */
+@define-color mpris-album-art-overlay rgba(26, 21, 18, 0.75);
+@define-color mpris-button-hover rgba(232, 130, 74, 0.2);
+
+.widget-mpris {
+    padding: 4px 8px;
+}
+
+.widget-mpris .widget-mpris-player {
+    padding: 14px;
+    margin: 6px 4px;
+    background: linear-gradient(135deg, rgba(46, 34, 24, 0.9), rgba(26, 21, 18, 0.9));
+    border: 1px solid @border;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(10, 8, 4, 0.5);
+}
+
+.widget-mpris .widget-mpris-player .widget-mpris-album-art {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(10, 8, 4, 0.6);
+}
+
+.widget-mpris .widget-mpris-player .widget-mpris-title {
+    font-weight: 800;
+    font-size: 14px;
+    color: @foreground;
+    margin: 0 6px 4px;
+}
+
+.widget-mpris .widget-mpris-player .widget-mpris-subtitle {
+    font-size: 11px;
+    color: @fg_sub;
+    margin: 0 6px;
+}
+
+.widget-mpris .widget-mpris-player > box > button {
+    background: transparent;
+    border-radius: 8px;
+    color: @fg_sub;
+    font-size: 16px;
+}
+
+.widget-mpris .widget-mpris-player > box > button:hover {
+    background: @mpris-button-hover;
+    color: @orange;
+}
+
+/* ── Volume ───────────────────────────────────────────── */
+.widget-volume {
+    padding: 8px 12px 4px;
+    font-size: 14px;
+    color: @foreground;
+}
+
+.widget-volume > box > button {
+    border: none;
+    background: transparent;
+    color: @orange;
+    font-size: 16px;
+}
+
+.per-app-volume {
+    padding: 4px 10px 8px;
+    color: @fg_sub;
+    font-size: 12px;
+}
+
+scale trough {
+    background: rgba(58, 44, 34, 0.8);
+    border-radius: 10px;
+    min-height: 6px;
+    margin: 0 8px;
+}
+
+scale trough highlight {
+    background: linear-gradient(90deg, @orange2, @orange);
+    border-radius: 10px;
+}
+
+scale slider {
+    background: @foreground;
+    border-radius: 50%;
+    min-width: 14px;
+    min-height: 14px;
+    box-shadow: 0 0 4px rgba(232, 130, 74, 0.5);
+}
+
+/* ── DND ──────────────────────────────────────────────── */
+.widget-dnd {
+    color: @foreground;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 14px;
+}
+
+.widget-dnd > switch {
+    border-radius: 20px;
+    background: rgba(58, 44, 34, 0.8);
+    border: 1px solid @border;
+    padding: 2px;
+}
+
+.widget-dnd > switch:checked {
+    background: rgba(232, 130, 74, 0.4);
+    border-color: @orange;
+}
+
+.widget-dnd > switch slider {
+    background: @orange;
+    border-radius: 50%;
+    min-width: 18px;
+    min-height: 18px;
+    box-shadow: 0 0 6px rgba(232, 130, 74, 0.5);
+}
+
+/* ── Title ────────────────────────────────────────────── */
+.widget-title {
+    color: @foreground;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 14px 8px;
+}
+
+.widget-title > button {
+    background: rgba(232, 130, 74, 0.15);
+    border: 1px solid @border;
+    border-radius: 10px;
+    color: @orange;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+}
+
+.widget-title > button:hover {
+    background: rgba(232, 130, 74, 0.28);
+    box-shadow: 0 0 8px rgba(232, 130, 74, 0.2);
+}
+
+/* ── Notifications ────────────────────────────────────── */
+.notification-row {
+    outline: none;
+    margin: 4px 0;
+}
+
+.notification-row:focus,
+.notification-row:hover {
+    opacity: 1;
+}
+
+.notification {
+    border-radius: 14px;
+    border: 1px solid @border;
+    background: rgba(36, 28, 23, 0.95);
+    padding: 10px;
+    margin: 0 4px;
+    box-shadow: 0 4px 16px rgba(10, 8, 4, 0.4);
+}
+
+.notification-default-action {
+    border-radius: 12px;
+    padding: 6px;
+    background: transparent;
+}
+
+.notification-default-action:hover {
+    background: rgba(232, 130, 74, 0.1);
+}
+
+.notification-content {
+    background: transparent;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.close-button {
+    opacity: 0; min-width: 0; min-height: 0;
+}
+
+.notification-header {
+    padding: 0;
+    color: @fg_sub;
+    font-size: 11px;
+}
+
+.app-icon {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.summary {
+    font-size: 13px;
+    font-weight: 800;
+    color: @foreground;
+}
+
+.time {
+    font-size: 10px;
+    color: @fg_dim;
+}
+
+.body {
+    font-size: 12px;
+    color: @fg_sub;
+}
+
+/* ── Urgency ──────────────────────────────────────────── */
+.critical .notification {
+    border-color: @red;
+    background: rgba(232, 90, 74, 0.1);
+}

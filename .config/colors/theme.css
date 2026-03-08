@@ -1,0 +1,22 @@
+/* theme.css đúng cho GTK (waybar, wlogout, swaync) */
+@define-color background  #1a1512;
+@define-color bg_dark     #0f0c0a;
+@define-color bg_surf     #241c17;
+@define-color bg_float    #2e2218;
+@define-color bg_hover    #3a2c22;
+
+@define-color foreground  #e8d5c4;
+@define-color fg_sub      #b89880;
+@define-color fg_dim      #7a5c45;
+
+@define-color orange      #e8824a;
+@define-color orange2     #c4683a;
+@define-color yellow      #e8c24a;
+@define-color red         #e85a4a;
+@define-color green       #8ac44a;
+@define-color blue        #4a98e8;
+@define-color purple      #9a4ae8;
+
+@define-color border      rgba(232,130,74,0.33);
+@define-color shadow      rgba(10,8,4,0.70);
+@define-color border2  rgba(232,130,74,0.13);

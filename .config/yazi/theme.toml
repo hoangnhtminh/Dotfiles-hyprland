@@ -1,0 +1,83 @@
+[manager]
+cwd = { fg = "#e8824a" }
+
+hovered         = { fg = "#1a1512", bg = "#e8824a" }
+preview_hovered = { underline = true }
+
+find_keyword  = { fg = "#e8c24a", bold = true, italic = true, underline = true }
+find_position = { fg = "#e8824a", bg = "reset", bold = true, italic = true }
+
+marker_copied = { fg = "#8ac44a", bg = "#8ac44a" }
+marker_cut    = { fg = "#e85a4a", bg = "#e85a4a" }
+marker_marked = { fg = "#e8824a", bg = "#e8824a" }
+
+tab_active   = { fg = "#1a1512", bg = "#e8824a" }
+tab_inactive = { fg = "#b89880", bg = "#241c17" }
+tab_width    = 1
+
+count_copied = { fg = "#1a1512", bg = "#8ac44a" }
+count_cut    = { fg = "#1a1512", bg = "#e85a4a" }
+count_marked = { fg = "#1a1512", bg = "#e8824a" }
+
+border_symbol = "│"
+border_style  = { fg = "#3a2c22" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#3a2c22", bg = "#3a2c22" }
+
+mode_normal = { fg = "#1a1512", bg = "#e8824a", bold = true }
+mode_select = { fg = "#1a1512", bg = "#8ac44a", bold = true }
+mode_unset  = { fg = "#1a1512", bg = "#e8c24a", bold = true }
+
+progress_label  = { fg = "#e8d5c4", bold = true }
+progress_normal = { fg = "#e8824a", bg = "#3a2c22" }
+progress_error  = { fg = "#e85a4a", bg = "#3a2c22" }
+
+permissions_t = { fg = "#e8824a" }
+permissions_r = { fg = "#e8c24a" }
+permissions_w = { fg = "#e85a4a" }
+permissions_x = { fg = "#8ac44a" }
+permissions_s = { fg = "#b89880" }
+
+[input]
+border   = { fg = "#e8824a" }
+title    = { fg = "#e8824a" }
+value    = { fg = "#e8d5c4" }
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#e8824a" }
+active   = { fg = "#e8824a" }
+inactive = { fg = "#b89880" }
+
+[tasks]
+border  = { fg = "#e8824a" }
+title   = { fg = "#e8824a" }
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#241c17" }
+cand            = { fg = "#e8824a" }
+rest            = { fg = "#7a5c45" }
+desc            = { fg = "#b89880" }
+separator       = "  "
+separator_style = { fg = "#3a2c22" }
+
+[completion]
+border   = { fg = "#e8824a" }
+active   = { fg = "#1a1512", bg = "#e8824a" }
+inactive = { fg = "#b89880" }
+
+[filetype]
+rules = [
+    { mime = "image/*",    fg = "#9a4ae8" },
+    { mime = "video/*",    fg = "#4a98e8" },
+    { mime = "audio/*",    fg = "#e8824a" },
+    { mime = "application/zip",    fg = "#e8c24a" },
+    { mime = "application/x-tar", fg = "#e8c24a" },
+    { mime = "text/*",     fg = "#8ac44a" },
+    { mime = "application/pdf", fg = "#e85a4a" },
+    { fallback = true,     fg = "#b89880" },
+]

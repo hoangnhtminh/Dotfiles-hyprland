@@ -1,0 +1,66 @@
+@import "../colors/theme.css";
+
+* {
+    background-image: none;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: 800;
+    transition: all 0.2s ease;
+}
+
+window {
+    background: rgba(26, 21, 18, 0.75);
+    font-size: 0px;
+}
+
+button {
+    background: rgba(36, 28, 23, 0.85);
+    outline: none;
+    border: 1px solid rgba(232, 130, 74, 0.2);
+    border-radius: 16px;
+    box-shadow: none;
+    text-shadow: none;
+    background-repeat: no-repeat;
+    background-position: center 38%;
+    background-size: 22%;
+    color: @foreground;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 8px;
+}
+
+button:focus {
+    outline: none;
+    border-color: @border;
+}
+
+button:hover {
+    background-color: rgba(232, 130, 74, 0.18);
+    background-size: 25%;
+    border-color: @orange;
+    box-shadow: 0 0 20px rgba(232, 130, 74, 0.25);
+    color: @orange;
+}
+
+button:active {
+    background-color: rgba(232, 130, 74, 0.3);
+}
+
+#lock {
+    background-image: image(url("./icons/lock.png"));
+}
+
+#suspend {
+    background-image: image(url("./icons/suspend.png"));
+}
+
+#shutdown {
+    background-image: image(url("./icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/reboot.png"));
+}
+
+#logout {
+    background-image: image(url("./icons/logout.png"));
+}

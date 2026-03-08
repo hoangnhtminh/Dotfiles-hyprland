@@ -1,0 +1,71 @@
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 2: invalid field class:^(kitty|foot)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 3: invalid field class:^(thunar|nemo)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 4: invalid field class:^(code-oss|codium)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 7: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 8: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 9: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 10: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 11: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 12: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 13: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 14: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 15: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 16: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 17: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 18: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 21: invalid field class:^(pavucontrol)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 22: invalid field center: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 23: invalid field class:^(org.gnome.Calculator|qalculate-gtk)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 24: invalid field center: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 25: invalid field type title:^(Open
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 26: invalid field center: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 29: invalid field pin: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 30: invalid field title:^(Picture-in-Picture)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 31: invalid field title:^(Picture-in-Picture)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 34: invalid field type idleinhibit
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 35: invalid field type idleinhibit
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 38: invalid field stayfocused: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 39: invalid field stayfocused: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 42: invalid field nofocus: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 45: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 46: invalid field noblur: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 49: invalid field class:^(xwaylandvideobridge)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 50: invalid field noanim: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 51: invalid field noinitialfocus: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 52: invalid field noblur: missing a value
+Config error in file /home/minh/.config/hypr/hyprland.conf at line 9: Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 2: invalid field class:^(kitty|foot)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 3: invalid field class:^(thunar|nemo)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 4: invalid field class:^(code-oss|codium)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 7: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 8: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 9: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 10: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 11: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 12: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 13: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 14: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 15: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 16: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 17: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 18: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 21: invalid field class:^(pavucontrol)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 22: invalid field center: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 23: invalid field class:^(org.gnome.Calculator|qalculate-gtk)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 24: invalid field center: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 25: invalid field type title:^(Open
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 26: invalid field center: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 29: invalid field pin: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 30: invalid field title:^(Picture-in-Picture)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 31: invalid field title:^(Picture-in-Picture)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 34: invalid field type idleinhibit
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 35: invalid field type idleinhibit
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 38: invalid field stayfocused: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 39: invalid field stayfocused: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 42: invalid field nofocus: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 45: invalid field float: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 46: invalid field noblur: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 49: invalid field class:^(xwaylandvideobridge)$: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 50: invalid field noanim: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 51: invalid field noinitialfocus: missing a value
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 52: invalid field noblur: missing a value
+

@@ -1,0 +1,44 @@
+## ============================================================
+## CAVA CONFIG - WARM ORANGE THEME
+## Đồng bộ với Hyprland / Waybar / Rofi
+## ============================================================
+
+[general]
+framerate = 60
+autosens = 1
+sensitivity = 100
+
+bars = 20
+bar_width = 3
+bar_spacing = 1
+
+lower_cutoff_freq = 50
+higher_cutoff_freq = 10000
+
+
+[input]
+method = pipewire
+source = auto
+
+
+[output]
+method = noncurses
+orientation = bottom
+channels = stereo
+
+
+[color]
+gradient = 1
+
+gradient_color_1 = '#e8824a'
+gradient_color_2 = '#c4683a'
+gradient_color_3 = '#9e4e26'
+gradient_color_4 = '#e8c24a'
+gradient_color_5 = '#8ac44a'
+gradient_color_6 = '#4a98e8'
+gradient_color_7 = '#9a4ae8'
+gradient_color_8 = '#e85a4a'
+
+
+[smoothing]
+noise_reduction = 77

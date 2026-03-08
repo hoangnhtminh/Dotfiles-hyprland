@@ -1,0 +1,15 @@
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 57: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 58: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 61: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 67: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 68: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 71: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 72: Invalid config line
+Config error in file /home/minh/.config/hypr/hyprland.conf at line 9: Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 57: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 58: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 61: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 67: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 68: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 71: windowrulev2 is deprecated. Correct syntax can be found on the wiki.
+Config error in file /home/minh/.config/hypr/conf/windowrule.conf at line 72: Invalid config line
+

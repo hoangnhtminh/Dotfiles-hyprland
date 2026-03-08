@@ -1,0 +1,31 @@
+* {
+    background: #1a1512;
+    background-alt: #241c17;
+    foreground: #e8d5c4;
+
+    selected: #3a2c22;
+    active: #e8824a;
+    urgent: #e85a4a;
+
+    orange: #e8824a;
+    orange2: #c4683a;
+    orange3: #9e4e26;
+
+    yellow: #e8c24a;
+    red: #e85a4a;
+    green: #8ac44a;
+    blue: #4a98e8;
+    purple: #9a4ae8;
+
+    gray: #7a5c45;
+
+    bordercolor: rgba(232,130,74,0.35);
+
+    active-background: @active;
+    urgent-background: @urgent;
+    urgent-foreground: @background;
+
+    selected-background: @selected;
+    selected-active-background: @active;
+    selected-urgent-background: @urgent;
+}
