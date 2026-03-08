@@ -10,14 +10,14 @@
 
 ## 📸 Preview
 
-https://github.com/hoangnhtminh/dotfiles/assets/YOUR_VIDEO.mp4
+https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
 
 <div align="center">
 <img src="assets/preview1.png" width="49%"/>
 <img src="assets/preview2.png" width="49%"/>
 <img src="assets/preview3.png" width="49%"/>
-</div>
-
+<img src="assets/preview4.png" width="49%"/>
+<img src="assets/preview5.png" width="49%"/>
 ## 📦 Stack
 
 | Component | Package |
@@ -46,7 +46,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-> ⚠️ Backup config trước khi install
+> ⚠️ Backup config before install
 
 ## ⌨️ Keybindings
 
