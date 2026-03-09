@@ -18,7 +18,8 @@ https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
 <img src="assets/preview3.png" width="49%"/>
 <img src="assets/preview4.png" width="49%"/>
 <img src="assets/preview5.png" width="49%"/>
-##
+
+  ##
   📦 Stack
 
 | Component | Package |
