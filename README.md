@@ -2,15 +2,14 @@
 
 #  Arch Hyprland
 
-[![Watch on YouTube](https://img.shields.io/badge/Watch-YouTube-red?style=flat&logo=youtube)](https://youtube.com/YOUR_VIDEO)
+[![Watch on YouTube](https://img.shields.io/badge/Watch-YouTube-red?style=flat&logo=youtube)](https://youtube.com/watch?v=tFkQkU1cD_Y)
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)](https://archlinux.org)
 [![Hyprland](https://img.shields.io/badge/Hyprland-0.54-58E1FF?style=flat)](https://hyprland.org)
 
 </div>
 
-## 📸 Preview
-
-https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
+## Preview
+https://www.youtube.com/watch?v=tFkQkU1cD_Y
 
 <div align="center">
 <img src="assets/preview1.png" width="49%"/>
