@@ -40,6 +40,8 @@ https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
 |---|---|---|---|---|---|
 | | ![](https://placehold.co/20x20/1a1512/1a1512) | ![](https://placehold.co/20x20/241c17/241c17) | ![](https://placehold.co/20x20/e8824a/e8824a) | ![](https://placehold.co/20x20/c4683a/c4683a) | ![](https://placehold.co/20x20/e8d5c4/e8d5c4) |
 
+
+
 ## 🚀 Install
 ```bash
 git clone --depth=1 https://github.com/hoangnhtminh/dotfiles
