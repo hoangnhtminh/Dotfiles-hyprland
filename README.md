@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍊 Warm Orange Rice — Arch Hyprland
+#  Arch Hyprland
 
 [![Watch on YouTube](https://img.shields.io/badge/Watch-YouTube-red?style=flat&logo=youtube)](https://youtube.com/YOUR_VIDEO)
 [![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)](https://archlinux.org)
@@ -20,7 +20,7 @@ https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
 <img src="assets/preview5.png" width="49%"/>
 
   ##
-  📦 Stack
+  Stack
 
 | Component | Package |
 |-----------|---------|
@@ -34,7 +34,7 @@ https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
 | File Manager | Thunar / Yazi |
 | PDF Viewer | Zathura |
 
-## 🎨 Colors
+## Colors
 
 | | `#1a1512` | `#241c17` | `#e8824a` | `#c4683a` | `#e8d5c4` |
 |---|---|---|---|---|---|
@@ -42,7 +42,7 @@ https://github.com/hoangnhtminh/dotfiles/assets/preview.mp4
 
 
 
-## 🚀 Install
+##  Install
 ```bash
 git clone --depth=1 https://github.com/hoangnhtminh/dotfiles
 cd dotfiles
@@ -50,9 +50,9 @@ chmod +x install.sh
 ./install.sh
 ```
 
-> ⚠️ Backup config before install
+>  Backup config before install
 
-## ⌨️ Keybindings
+## Keybindings
 
 | Key | Action |
 |-----|--------|
